@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Global Styles */
+/* todo - Global Styles */
 
 h1 {
   font-size: 50px;
@@ -135,7 +135,7 @@ body {
   display: none;
 }
 
-/* Home Page */
+/* ? Home Page */
 #hero{
   background-image: url(img/hero4.png);
   height: 90vh;
@@ -784,4 +784,58 @@ footer .copyright{
   #prodetails .single-pro-details{
     width: 100%;
   }
+}
+/* Todo - Halaman About Us */
+#page-header.about-header{
+  background-image: url(img/about/banner.png);
+  
+}
+.about-header h1{
+  color: white;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  margin-left: 35%;
+}
+#deskripsi{
+  padding-left: 5%;
+  width: 100%;
+  display: flex;
+}
+.about{
+  width: 32%;
+  text-align: center;
+}
+.kontak img{
+  width:75%;
+}
+.kontak ul li{
+  list-style-type:none ;
+  text-align: left;
+  margin-top: 8px;
+}
+.kontak ul li i{
+  margin-right: 10px;
+}
+.kontak ul li i:hover{
+  cursor: pointer;
+  color: #a30eb1;
+}
+.kontak ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+.alamat{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.jam ul li{
+  margin-left: 15%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.jam ul li span{
+  text-align: center;
 }

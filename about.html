@@ -1,19 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
-
-    <body>
-
-        <script src="script.js"></script>
-    </body>
-
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a class="active" href="about.html">Tentang Kami</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <section id="page-header" class="about-header">
+      <h1>Tentang Kami</h1>
+      <h3></h3>
+    </section>
+    <section id="deskripsi">
+        <div class="about kontak">
+            <h3>Kontak</h3>
+            <img src="img/logo.png" alt="">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+6285755436929</span>
+                    </li>
+                    <li> <i class="fa-brands fa-instagram"></i>
+                        <a href="https://instagram.com/nw_florist?igshid=MzMyNGUyNmU2YQ==">nw_florist</a>
+                    </li>
+                    <li><i class="fa-brands fa-google"></i>
+                    <a href="https://nw-florist-buket-bunga-blitar.business.site/?utm_source=gmb&utm_medium=referral">Google Bussines</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="about alamat">
+            <h3>Alamat</h3>
+            <p>RT.02/ RW.04, Selatan, Kuningan, Kecamatan Kanigoro Kabupaten Blitar Provinsi Jawa Timur</p>
+        </div>
+        <div class="about jam">
+            <h3>Jam Buka</h3>
+            <ul>
+                <li>
+                   <span>Minggu</span> <span>Tutup</span>
+                </li>
+                <li>
+                    <span>Senin</span> <span>08:00 - 17:00</span>
+                </li>
+                <li>
+                    <span>Selasa</span> <span>08:00 - 17:00</span>
+                </li>
+                <li>
+                    <span>Rabu</span> <span>08:00 - 17:00</span>
+                </li>
+                <li>
+                    <span>Kamis</span> <span>08:00 - 17:00</span>
+                </li>
+                <li>
+                    <span>Jum'at</span> <span>08:00 - 17:00</span>
+                </li>
+                <li>
+                    <span>Sabtu</span> <span>08:00 - 16:00</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2023, Kel6 - NW Florist Web Bouquet</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
