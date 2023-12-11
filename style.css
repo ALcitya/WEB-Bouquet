@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Global Styles */
+/* todo - Global Styles */
 
 h1 {
   font-size: 50px;
@@ -135,7 +135,7 @@ body {
   display: none;
 }
 
-/* Home Page */
+/* ? Home Page */
 #hero{
   background-image: url(img/hero4.png);
   height: 90vh;
@@ -784,4 +784,147 @@ footer .copyright{
   #prodetails .single-pro-details{
     width: 100%;
   }
+}
+/* Todo - Halaman About Us */
+#page-header.about-header{
+  background-image: url(img/about/banner.png);
+  
+}
+.about-header h1, .contact-header h1{
+  color: white;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  margin-left: 35%;
+}
+#deskripsi{
+  padding-left: 5%;
+  width: 100%;
+  display: flex;
+  padding-top: 15px;
+}
+.about{
+  width: 32%;
+  text-align: center;
+}
+.kontak img{
+  width:75%;
+}
+.kontak ul li{
+  list-style-type:none ;
+  text-align: left;
+  margin-top: 8px;
+}
+.kontak ul li i{
+  margin-right: 10px;
+}
+.kontak ul li i:hover{
+  cursor: pointer;
+  color: #a30eb1;
+}
+.kontak ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+.alamat{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.jam ul li{
+  margin-left: 15%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.jam ul li span{
+  text-align: center;
+}
+/* todo - Contact page */
+#page-header.contact-header{
+  background-image: url(img/contact/banner.jpg);
+}
+.contact-header h1{
+  margin-left: 45%;
+}
+.kontak-main{
+  display: flex;
+  padding: 20px 0%;
+}
+.kontak-col-1{
+  width: 60%;
+  height: 400px;
+  display: flex;
+}
+.kiri, .kanan{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.kiri{
+  justify-content: space-between;
+}
+.kanan{
+  align-items: center;
+  justify-content: center;
+}
+.testimoni{
+  display: flex;
+  height:130px;
+  width:100%;
+}
+.testimoni img{
+  width: 100px;
+}
+.bintang img{
+  height: 30px;
+  margin-right: 10px  ;
+}
+.nama{
+  font-size: medium;
+}
+.pesan{
+  text-align: center;
+}
+.kontak-col-2{
+  width: 40%;
+  padding: 0% 5%;
+}
+.kontak-col-2 form{
+  display: flex;
+  flex-direction: column;
+}
+.kontak-col-2 form label{
+  text-align: right;
+  font-weight: 300;
+}
+.kontak-col-2 form input{
+  padding: 3px;
+  border-radius: 20px;
+  outline-color:#0bb4a8 ;
+}
+textarea{
+  outline-color:#0bb4a8 ;
+  border-radius: 5px;
+}
+.tombol{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.tombol button{
+  width: 40%;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #139f95;
+  color: white;
+  font-size: medium;
+}
+.tombol button:hover{
+  cursor: pointer;
+}
+.tombol button:active{
+  transform: scale(0.9);
 }
