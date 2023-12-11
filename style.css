@@ -853,7 +853,7 @@ footer .copyright{
 }
 .kontak-col-1{
   width: 60%;
-  height: 350px;
+  height: 400px;
   display: flex;
 }
 .kiri, .kanan{
@@ -870,10 +870,11 @@ footer .copyright{
 }
 .testimoni{
   display: flex;
+  height:130px;
   width:100%;
 }
 .testimoni img{
-  width: 200px;
+  width: 100px;
 }
 .bintang img{
   height: 30px;
